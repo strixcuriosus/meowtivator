@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://developer.chrome.com/extensions/examples/tutorials/getstarted/popup.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+      .greeting, #catspeak {
+        background-color: black;
+        color: white;
+      }
+
+      #more {
+        background-color: green;
+        border-radius: 5px;
+        width: 150px;
+        text-align: center;
+        padding: 0 2px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="./popup.js"></script>
+  </head>
+  <body>
+  <div class='greeting'>O, hai! Here's some meowtivation:
+    <div id='cat'>
+      <img id='catpic' src="">
+      <span id='catspeak'></span>
+      <div id='more'>MOAR?</div>
+    </div>
+  </div>
+  
+
+
+<!-- <script type="text/javascript" src="chrome-extension://bmdblncegkenkacieihfhpjfppoconhi/in-page-script.js"></script> -->
+</body>
+</html>
